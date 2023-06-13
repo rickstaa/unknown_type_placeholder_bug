@@ -11,4 +11,3 @@ AutoAPI when using it within a ROS package (see https://github.com/readthedocs/s
 4.  Install the python dependencies (i.e. `pip install -r requirements/doc_requirements.txt`).
 5.  Build the documentation from within the `docs` folder (i.e. `make html`).
 6.  Be greeted by the `WARNING: Unknown type: placeholder` bug.
-# unknown_type_placeholder_bug
