@@ -1,0 +1,27 @@
+:py:mod:`test_pkg`
+==================
+
+.. py:module:: test_pkg
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   _version/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__2
+   :value: '2.13.27'
+
+   
+
+.. py:data:: __version_tuple__2
+
+   
+
