@@ -15,6 +15,6 @@ AutoAPI when using it within a ROS package (see https://github.com/readthedocs/s
 ## How to debug autoapi to find the bug
 
 1.  Change the `"program": "~/venvs/placeholder_bug/bin/sphinx-build",` in the `.vscode/launch.json` file to point to your virtual environment's `sphinx-build` executable.
-2.  Put a breakpoint in the `autoapi/mappers/python/mapper.py` file at line `333` (i.e. `children = {child["name"]: child for child in module["children"]}`).
+2.  Put a breakpoint in the `lib/python3.9/site-packages/autoapi/mappers/python/mapper.py` file at line `333` (i.e. `children = {child["name"]: child for child in module["children"]}`).
 3.  Run the vscode debugger (i.e. `F5`).
 4.  See that the code overwrites the dictionary entry for a given module, here `test_pkg`, when a module is encountered for the second time.
